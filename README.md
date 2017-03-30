@@ -4,34 +4,11 @@
 [![License][license-image]][license-url]
 [![Downloads][downloads-image]][downloads-url]
 
-# Lock
+# Logon
 
-[Auth0](https://auth0.com) is an authentication broker that supports social identity providers as well as enterprise identity providers such as Active Directory, LDAP, Google Apps, Salesforce.
+Uaa is an authentication broker that supports social identity providers as well as enterprise identity providers such as Active Directory, LDAP, Google, Facebook.
 
 ## Install
-
-From CDN
-
-```html
-<!-- Latest patch release (recommended for production) -->
-<script src="http://cdn.auth0.com/js/lock/10.8.1/lock.min.js"></script>
-```
-
-From [bower](http://bower.io)
-
-```sh
-bower install uaa-logon
-```
-
-```html
-<script src="bower_components/uaa-logon/build/lock.min.js"></script>
-```
-
-From [npm](https://npmjs.org)
-
-```sh
-npm install uaa-logon
-```
 
 After installing the `uaa-logon` module, you'll need bundle it up along with all of its dependencies. We have examples for [browserify](examples/bundling/browserify/) and [webpack](examples/bundling/webpack/).
 
